@@ -4,15 +4,23 @@
 </h2>
 
 <h4 align='center'>
-  FullStack Developer
+  (Laravel + React - React Native) FullStack Developer
 </h4>
 
-<h2>🧑 Specialised in:</h2> 
-<p>🔹 Android Development
-<br>🔹 FrontEnd - ReactJS, React Native
-<br>🔹 BackEnd - NodeJS, Express, Laravel
-</p>
+## 💪 I’m currently working on ...
+  ✅ FrontEnd - <b>REACT JS, REACT-NATIVE</b>
+  ✅ BackEnd - <b>LARAVEL</b>
 
+## 🌱 I’m currently learning ... 
+💚 Android Development
+<br>💚 FrontEnd - VueJs, ReactJS, React Native
+<br>💚 BackEnd - NodeJS, Express, Laravel
+	
+## 👏 Projects
+💚 Paper App 		- sharing text,thoughts<br>
+💚 Vote App  		- vote king-queen<br>
+💚 PUDE App  		- show exams result<br>
+💚 Expense App		- calculate expense<br>
 <h2>ℹ️ &nbsp;Github Info</h2>
 	
   <summary><b>🔎 Github Profile Details</b></summary>
