@@ -25,8 +25,8 @@
 	
   <summary><b>🔎 Github Profile Details</b></summary>
 <p>
-<img height="180em" width="58%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WinKoKoNaing&theme=github_dark" alt="WinKoKoNaing"/>
-<img height="180em" width="35%" src="https://github-readme-stats.vercel.app/api/top-langs?username=WinKoKoNaing&show_icons=true&locale=en&layout=compact&hide_border=true&theme=radical" alt="WinKoKoNaing"/>
+<img height="180em" width="58%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WinKoKoNaing&theme=vue" alt="WinKoKoNaing"/>
+<img height="180em" width="35%" src="https://github-readme-stats.vercel.app/api/top-langs?username=WinKoKoNaing&show_icons=true&locale=en&layout=compact&hide_border=true&theme=vue" alt="WinKoKoNaing"/>
 </p>
 <!--
 **WinKoKoNaing/winkokonaing** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
