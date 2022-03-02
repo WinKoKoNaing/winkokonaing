@@ -4,7 +4,7 @@
 </h2>
 
 <h4 align='center'>
-  (Laravel + React - React Native) FullStack Developer
+  💚 Laravel + React - React Native, Android 💚
 </h4>
 
 ## 💪 I’m currently working on ...
