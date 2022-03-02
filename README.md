@@ -4,7 +4,7 @@
 </h2>
 
 <h4 align='center'>
-  Android, ReactJs Developer
+  FullStack Developer
 </h4>
 
 <h2>🧑 Specialised in:</h2> 
