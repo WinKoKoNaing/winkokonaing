@@ -8,13 +8,13 @@
 </h4>
 
 ## 💪 I’m currently working on ...
-  ✅ FrontEnd - <b>REACT JS, REACT-NATIVE</b></br>
-  ✅ BackEnd - <b>LARAVEL</b>
+  ✅ Frontend - <b>REACT JS, REACT-NATIVE</b></br>
+  ✅ Backend - <b>LARAVEL</b>
 
 ## 🌱 I’m currently learning ... 
 💚 Kotlin(Android)
-<br>💚 FrontEnd - ReactJS, React Native, VueJs
-<br>💚 BackEnd - Laravel, NodeJS, ExpressJs
+<br>💚 Frontend - ReactJS, React Native, VueJs
+<br>💚 Backend - Laravel, NodeJS, ExpressJs
 	
 <!-- ## 👏 Projects
 💚 Paper App 		- sharing text,thoughts<br>
