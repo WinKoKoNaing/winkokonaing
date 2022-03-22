@@ -4,23 +4,23 @@
 </h2>
 
 <h4 align='center'>
-  💚 Laravel + React - React Native, Android 💚
+  💚 ReactJS, React Native, Laravel, NodeJS 💚
 </h4>
 
 ## 💪 I’m currently working on ...
-  ✅ FrontEnd - <b>REACT JS, REACT-NATIVE</b>
+  ✅ FrontEnd - <b>REACT JS, REACT-NATIVE</b></br>
   ✅ BackEnd - <b>LARAVEL</b>
 
 ## 🌱 I’m currently learning ... 
-💚 Android Development
-<br>💚 FrontEnd - VueJs, ReactJS, React Native
-<br>💚 BackEnd - NodeJS, Express, Laravel
+💚 Kotlin(Android)
+<br>💚 FrontEnd - ReactJS, React Native, VueJs
+<br>💚 BackEnd - Laravel, NodeJS, ExpressJs
 	
-## 👏 Projects
+<!-- ## 👏 Projects
 💚 Paper App 		- sharing text,thoughts<br>
 💚 Vote App  		- vote king-queen<br>
 💚 PUDE App  		- show exams result<br>
-💚 Expense App		- calculate expense<br>
+💚 Expense App		- calculate expense<br> -->
 <h2>ℹ️ &nbsp;Github Info</h2>
 	
   <summary><b>🔎 Github Profile Details</b></summary>
