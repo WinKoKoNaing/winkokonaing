@@ -4,7 +4,7 @@
 </h2>
 
 <h4 align='center'>
-  💚 ReactJS, React Native, Laravel, NodeJS 💚
+  💚 ReactJS, React Native, Laravel, ExpressJS 💚
 </h4>
 
 ## 💪 I’m currently working on ...
@@ -12,9 +12,7 @@
   ✅ Backend - <b>LARAVEL</b>
 
 ## 🌱 I’m currently learning ... 
-💚 Kotlin(Android)
-<br>💚 Frontend - ReactJS, React Native, VueJs
-<br>💚 Backend - Laravel, NodeJS, ExpressJs
+<br>💚 Solidity 
 	
 <!-- ## 👏 Projects
 💚 Paper App 		- sharing text,thoughts<br>
