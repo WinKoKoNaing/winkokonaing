@@ -12,7 +12,7 @@
   ✅ Backend - <b>LARAVEL</b>
 
 ## 🌱 I’m currently learning ... 
-<br>💚 Solidity 
+💚 Solidity 
 	
 <!-- ## 👏 Projects
 💚 Paper App 		- sharing text,thoughts<br>
