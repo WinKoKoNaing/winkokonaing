@@ -1,18 +1,17 @@
 <h2 align="center">
   Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> ,
-   <!-- I'm <a href="">Tony Robin</a>!  -->
+   I'm <a href="https://github.com/WinKoKoNaing">Win Ko</a>! 
 </h2>
 
 <h4 align='center'>
-  💚 ReactJS, React Native, Laravel, ExpressJS 💚
+  💚 ReactJS, React Native, Expo, Laravel, ExpressJS 💚
 </h4>
 
 ## 💪 I’m currently working on ...
-  ✅ Frontend - <b>REACT JS, REACT-NATIVE</b></br>
-  ✅ Backend - <b>LARAVEL</b>
+ REACTJS, REACT NATIVE, LARAVEL
 
 ## 🌱 I’m currently learning ... 
-💚 Solidity 
+Solidity, Wordpress
 	
 <!-- ## 👏 Projects
 💚 Paper App 		- sharing text,thoughts<br>
