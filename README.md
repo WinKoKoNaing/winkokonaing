@@ -11,7 +11,7 @@
  REACTJS, REACT NATIVE, LARAVEL
 
 ## 🌱 I’m currently learning ... 
-Solidity, Wordpress
+solidity, wordpress
 	
 <!-- ## 👏 Projects
 💚 Paper App 		- sharing text,thoughts<br>
