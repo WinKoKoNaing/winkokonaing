@@ -4,7 +4,7 @@
 </h2>
 
 <h4 align='center'>
-  💚 ReactJS, React Native, Expo, Laravel, ExpressJS 💚
+  💚 NextJs, ReactJS, React Native, Expo, Laravel, ExpressJS 💚
 </h4>
 
 ## 💪 I’m currently working on ...
