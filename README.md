@@ -8,10 +8,10 @@
 </h4>
 
 ## 💪 I’m currently working on ...
- REACTJS, REACT NATIVE, LARAVEL
+ NextJS, React Native, ExpressJS, Laravel
 
 ## 🌱 I’m currently learning ... 
-solidity, wordpress
+Solidity
 	
 <!-- ## 👏 Projects
 💚 Paper App 		- sharing text,thoughts<br>
