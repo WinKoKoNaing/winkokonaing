@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[39756,["https://winkokonaing.github.io/WinKoKoNaing/_next/static/chunks/ff1a16fafef87110.js","https://winkokonaing.github.io/WinKoKoNaing/_next/static/chunks/247eb132b7f7b574.js"],"default"]
 3:I[37457,["https://winkokonaing.github.io/WinKoKoNaing/_next/static/chunks/ff1a16fafef87110.js","https://winkokonaing.github.io/WinKoKoNaing/_next/static/chunks/247eb132b7f7b574.js"],"default"]
-0:{"buildId":"dbP6W76P_pYzlOx7tEnQU","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"8Q0C-ilRk5b11-P3--H9u","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
