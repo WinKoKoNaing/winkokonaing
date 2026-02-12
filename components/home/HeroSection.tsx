@@ -13,14 +13,27 @@ export default function HeroSection() {
       className="min-h-[calc(100dvh-var(--nav-h)) scroll-mt-100 container grid md:grid-cols-2 place-items-center gap-20"
     >
       <div>
-        <h1 className="text-h1">
+        <h1 className="text-h1 bg-linear-to-r from-[#d3e97a] via-[#a3c75a] to-[#f0f8b0] bg-clip-text text-transparent animate-gradient-x">
           hi, i am
           <br />
           Win Ko Ko Naing
         </h1>
-        <p className="text-body mt-2">
+        <p className="text-body-medium mt-2">
           A software engineer passionate about building scalable, user-friendly
           web and mobile applications.
+        </p>
+        <p className="text-body-medium">
+          I focus on{" "}
+          <span className="text-[#d3e97a] animate-pulse-text">
+            accessibility
+          </span>
+          ,{" "}
+          <span className="text-[#d3e97a] animate-pulse-text">performance</span>
+          , and{" "}
+          <span className="text-[#d3e97a] animate-pulse-text">
+            maintainable code
+          </span>
+          .
         </p>
         <div className="mt-10 flex flex-row items-center gap-4">
           <Button size="lg" asChild>

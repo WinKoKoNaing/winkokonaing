@@ -237,16 +237,61 @@ html {
   scroll-margin-top: var(--nav-h);
 }
 
-@keyframes gradientMove {
+@keyframes gradient-x {
   0% {
     background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
   100% {
-    background-position: 200% 50%;
+    background-position: 0% 50%;
   }
 }
 
-.animate-gradient {
+.animate-gradient-x {
   background-size: 200% 200%;
-  animation: gradientMove 18s ease-in-out infinite;
+  animation: gradient-x 5s linear infinite;
+}
+
+@keyframes pulse-text {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-text {
+  animation: pulse-text 2s infinite;
+}
+
+@keyframes slide-x {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  } /* subtle movement */
+}
+
+.animate-slide-x {
+  animation: slide-x 5s ease-in-out infinite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+button {
+  animation: slide-x 5s ease-in-out infinite;
 }
