@@ -1,4 +1,4 @@
-:HL["https://winkokonaing.github.io/WinKoKoNaing/_next/static/chunks/e847e2cb86c81d85.css","style"]
+:HL["https://winkokonaing.github.io/WinKoKoNaing/_next/static/chunks/6d2f692f2af3069c.css","style"]
 :HL["https://winkokonaing.github.io/WinKoKoNaing/_next/static/media/a343f882a40d2cc9-s.p.71e1367e.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["https://winkokonaing.github.io/WinKoKoNaing/_next/static/media/fabcf92ba1ccea36-s.p.19f28380.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"buildId":"VyaOcc6-lgxLDCeyFRmoj","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"hW2-kFuoSeaU273CnmyBy","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
