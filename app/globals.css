@@ -222,3 +222,17 @@ html {
 .scroll-mt-nav-h {
   scroll-margin-top: var(--nav-h);
 }
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 18s ease-in-out infinite;
+}

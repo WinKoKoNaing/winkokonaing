@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "./theme-provider";
 import { manrope, bebasNeue } from "./fonts";
 import { Toaster } from "@/components/ui/sonner";
+import ParticlesBackground from "@/components/common/ParticlesBackground";
+import AnimatedGradient from "@/components/common/AnimatedGradient";
 
 export const metadata: Metadata = {
   title: "Win Ko Ko Naing | Software Engineer",
@@ -26,7 +28,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          {children}
+          <main>
+            {children}
+            <ParticlesBackground />
+          </main>
           <Toaster />
         </ThemeProvider>
       </body>

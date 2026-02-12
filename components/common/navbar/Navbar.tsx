@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "../../ui/button";
 import MobileNavbar from "./MobileNavbar";
 import ScrollTo from "./scrollTo";
+import ParticlesBackground from "../ParticlesBackground";
 
 export const navItems = [
   { name: "Work", href: "#work" },
@@ -12,7 +13,7 @@ export const navItems = [
 ];
 export default function Navbar() {
   return (
-    <nav className="bg-background sticky top-0 z-50">
+    <nav className="sticky top-0 z-50 bg-background">
       <div className="min-h-24 container md:mx-auto flex flex-row items-center justify-between">
         <ScrollTo href="#main" className="text-name grow">
           Win Ko Ko Naing
@@ -32,6 +33,7 @@ export default function Navbar() {
           <MobileNavbar />
         </React.Suspense>
       </div>
+      <ParticlesBackground />
     </nav>
   );
 }
