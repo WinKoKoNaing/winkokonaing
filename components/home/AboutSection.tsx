@@ -1,8 +1,10 @@
-import React from "react";
-import { Button } from "../ui/button";
+"use client";
 import Link from "next/link";
+import { Button } from "../ui/button";
+import { usePathname } from "next/navigation";
 
 export default function AboutSection() {
+  const pathname = usePathname();
   return (
     <section
       id="about"
@@ -22,14 +24,16 @@ export default function AboutSection() {
           learning to improve my skills. Outside of development, I enjoy
           exploring new ideas and technologies.
         </p>
-        <Button
-          variant="link"
-          size="link"
-          className="mt-14 uppercase underline"
-          asChild
-        >
-          <Link href="/about">More about me</Link>
-        </Button>
+        {!pathname.endsWith("/about") && (
+          <Button
+            variant="link"
+            size="link"
+            className="mt-14 uppercase underline"
+            asChild
+          >
+            <Link href="/about">More about me</Link>
+          </Button>
+        )}
       </div>
     </section>
   );

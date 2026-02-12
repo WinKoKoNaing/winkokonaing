@@ -177,6 +177,20 @@ html {
   }
 }
 
+@utility text-h4 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: -0.18px;
+  color: #fff;
+  font-family: var(--font-manrope);
+  @variant md {
+    font-size: 24px;
+    letter-spacing: -0.24px;
+  }
+}
+
 @utility text-h5 {
   color: #fff;
   font-family: var(--font-manrope);

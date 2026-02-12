@@ -1,6 +1,6 @@
-import { DotIcon, FacebookIcon, GithubIcon, LinkedinIcon } from "lucide-react";
-import { Button } from "../../ui/button";
+import { FacebookIcon, GithubIcon, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
+import { Button } from "../../ui/button";
 import { contact } from "../utils/constant";
 import { ContactForm } from "./ContactForm";
 
@@ -17,6 +17,15 @@ export default function ContactSection() {
           opportunities to be part of your visions. Feel free to reach out to me
           through any of the platforms below or send me an email. Let’s create
           something amazing together!
+        </p>
+        <p className="mt-1 text-body-medium">
+          Say hello at{" "}
+          <a
+            href="mailto:wkkn2580@gmail.com"
+            className="text-primary underline hover:text-blue-600"
+          >
+            wkkn2580@gmail.com
+          </a>
         </p>
         <div className="mt-10 flex flex-row items-center gap-8 md:gap-4">
           <Button variant="link" size="icon-lg">

@@ -19,6 +19,7 @@ import {
   InputGroupTextarea,
 } from "@/components/ui/input-group";
 import formSchema from "./actions/formSchema";
+import { toast } from "sonner";
 
 export function ContactForm() {
   const [pending, startTransition] = React.useTransition();
@@ -40,6 +41,11 @@ export function ContactForm() {
       //     );
       //   });
       // });
+      toast.success(
+        "🚧 This form is under development! Please send me an email instead.",
+      );
+      //       "Message sent successfully! Thank you for reaching out. I'll get back to you as soon as possible.",
+      // ();
     },
   });
 

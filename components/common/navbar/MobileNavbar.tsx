@@ -4,9 +4,10 @@ import Link from "next/link";
 import { useState } from "react";
 import { Button } from "../../ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "../../ui/popover";
-import { navItems } from "./Navbar";
+import useNavItems from "./useNavItems";
 
 export default function MobileNavbar() {
+  const { navs } = useNavItems();
   const [open, setOpen] = useState(false);
   return (
     <Popover modal defaultOpen open={open} onOpenChange={setOpen}>
@@ -24,7 +25,7 @@ export default function MobileNavbar() {
         className="bg-background mt-3.5 flex h-[calc(100vh-48px)] w-dvw flex-col rounded-none border-0 px-0 shadow-none"
       >
         <div className="flex flex-1 flex-col gap-6 px-4">
-          {navItems.map((item, i) => (
+          {navs.map((item, i) => (
             <Link
               key={i}
               onClick={() => setOpen(false)}
