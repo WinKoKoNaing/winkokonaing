@@ -4,7 +4,7 @@ self.__BUILD_MANIFEST = {
     "beforeFiles": [
       {
         "source": "/winkokonaing//_next/:path+",
-        "destination": "/WinKoKoNaing/_next/:path+"
+        "destination": "/winkokonaing/_next/:path+"
       }
     ],
     "fallback": []
