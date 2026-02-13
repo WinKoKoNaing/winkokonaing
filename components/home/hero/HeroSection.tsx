@@ -1,11 +1,12 @@
 import { DotIcon, GithubIcon, LinkedinIcon } from "lucide-react";
 import Link from "next/link";
 import { Suspense } from "react";
-import { Button } from "../ui/button";
-import { contact } from "./utils/constant";
+import AnimatedGradientText from "../../common/AnimatedGradientText";
+import ScrollTo from "../../common/navbar/scrollTo";
+import { Button } from "../../ui/button";
+import { contact } from "../utils/constant";
+import DevMotivation from "./DevMotivation";
 import HeroAnimation from "./HeroAnimation";
-import ScrollTo from "../common/navbar/scrollTo";
-import AnimatedGradientText from "../common/AnimatedGradientText";
 
 export default function HeroSection() {
   return (
@@ -38,6 +39,7 @@ export default function HeroSection() {
           </span>
           .
         </p>
+        <DevMotivation />
         <div className="mt-10 flex flex-row items-center gap-4">
           <Button size="lg" asChild>
             <ScrollTo
