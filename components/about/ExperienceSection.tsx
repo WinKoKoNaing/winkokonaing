@@ -4,7 +4,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="md:min-h-[calc(100dvh-var(--nav-h))] scroll-mt-nav-h container grid md:grid-cols-2"
+      className="md:min-h-[calc(100dvh-var(--nav-h))] scroll-mt-nav-h container grid md:grid-cols-2 gap-8 md:gap-0"
     >
       <div>
         <h1 className="text-h1">My Experience</h1>

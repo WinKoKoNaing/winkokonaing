@@ -5,7 +5,7 @@ const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   ...(isProd && {
     output: "export",
-    basePath: "/WinKoKoNaing",
+    basePath: "/winkokonaing",
     assetPrefix: "https://winkokonaing.github.io/winkokonaing/",
     images: {
       unoptimized: true,

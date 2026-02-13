@@ -8,7 +8,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="md:min-h-[calc(100dvh-var(--nav-h))] scroll-mt-nav-h container grid md:grid-cols-2"
+      className="md:min-h-[calc(100dvh-var(--nav-h))] scroll-mt-nav-h container grid md:grid-cols-2 gap-8 md:gap-0"
     >
       <div>
         <h1 className="text-h1">About Me</h1>

@@ -8,7 +8,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="min-h-[calc(100dvh-var(--nav-h))] gap-16 scroll-mt-nav-h container grid md:grid-cols-2"
+      className="min-h-[calc(100dvh-var(--nav-h))] gap-8 md:gap-16 scroll-mt-nav-h container grid md:grid-cols-2"
     >
       <div>
         <p className="text-h1">Let’s connect</p>
