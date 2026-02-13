@@ -1,8 +1,9 @@
 import DashedLine from "@/components/common/DashedLine";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link";
-import WorkVoteLottie from "./WorkVoteLottie";
-
+import VoteImage from "../../../public/work/vote.png";
+import AcreLogImage from "../../../public/work/acrelog.png";
 export default function ProjectSection() {
   return (
     <section
@@ -17,11 +18,64 @@ export default function ProjectSection() {
       </p>
 
       <div className="md:mt-20 mt-16 grid md:grid-cols-2 gap-10 md:gap-0">
-        <div className="rounded-3xl border h-85 md:h-150">
-          <WorkVoteLottie />
+        <div className="rounded-3xl border p-5 md:p-10 lg:p-20 flex items-center justify-center">
+          <Image
+            alt="AcreLog Cover Image"
+            className="rounded-3xl"
+            width={486}
+            height={347}
+            src={AcreLogImage}
+          />
         </div>
         <div className="md:pl-12 self-center">
-          <h3 className="text-h3">VoteApp (University Academic Project)</h3>
+          <h3 className="text-h3">AcreLog</h3>
+          <p className="text-body mt-4">
+            Build a production-ready web + mobile system to track farmer acreage
+            work (acres), tractors, and payments using NestJS, Next.js, Expo,
+            and Prisma.
+          </p>
+
+          <h5 className="mt-8 text-h5">Project Info</h5>
+          <DashedLine className="my-4 w-full" />
+          <div className="flex items-center justify-between">
+            <p className="text-body-small text-white">Year</p>
+            <p className="text-body-small">2026</p>
+          </div>
+          <DashedLine className="my-4 w-full" />
+          <div className="flex items-center justify-between">
+            <p className="text-body-small text-white">Role</p>
+            <p className="text-body-small">Software Engineer</p>
+          </div>
+          <DashedLine className="my-4 w-full" />
+
+          <Button
+            variant="link"
+            size="link"
+            className="uppercase underline"
+            asChild
+          >
+            <Link
+              href="https://github.com/WinKoKoNaing/VoteApp"
+              target="_blank"
+            >
+              SEE ON Github
+            </Link>
+          </Button>
+        </div>
+      </div>
+
+      <div className="md:mt-20 mt-16 grid md:grid-cols-2 gap-10 md:gap-0">
+        <div className="rounded-3xl border p-5 md:p-10 lg:p-20 flex items-center justify-center">
+          <Image
+            alt="Vote Image"
+            className="rounded-3xl"
+            width={486}
+            height={347}
+            src={VoteImage}
+          />
+        </div>
+        <div className="md:pl-12 self-center">
+          <h3 className="text-h3">Vote Application</h3>
           <p className="text-body mt-4">
             VoteApp is a university project voting application that allows users
             to participate in polls and cast votes securely. Built with Java and
@@ -39,7 +93,7 @@ export default function ProjectSection() {
           <DashedLine className="my-4 w-full" />
           <div className="flex items-center justify-between">
             <p className="text-body-small text-white">Role</p>
-            <p className="text-body-small">App Developer</p>
+            <p className="text-body-small">Android Developer</p>
           </div>
           <DashedLine className="my-4 w-full" />
 
@@ -50,7 +104,7 @@ export default function ProjectSection() {
             asChild
           >
             <Link
-              href="https://github.com/WinKoKoNaing/VoteApp"
+              href="https://github.com/WinKoKoNaing/AcreLog"
               target="_blank"
             >
               SEE ON Github

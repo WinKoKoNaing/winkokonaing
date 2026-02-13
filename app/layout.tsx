@@ -24,8 +24,9 @@ export default function RootLayout({
       <body className={`${manrope.className} ${bebasNeue.variable}`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
+          // enableSystem
+          forcedTheme="dark"
           disableTransitionOnChange
         >
           <Navbar />

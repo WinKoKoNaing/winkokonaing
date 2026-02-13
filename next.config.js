@@ -6,7 +6,7 @@ const nextConfig = {
   ...(isProd && {
     output: "export",
     basePath: "/WinKoKoNaing",
-    assetPrefix: "https://winkokonaing.github.io/WinKoKoNaing/",
+    assetPrefix: "https://winkokonaing.github.io/winkokonaing/",
     images: {
       unoptimized: true,
     },

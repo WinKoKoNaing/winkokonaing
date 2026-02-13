@@ -62,7 +62,7 @@ html {
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --primary: #d3e97a;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -225,11 +225,15 @@ html {
   padding-inline: 1rem;
   margin-inline: auto;
   @variant md {
-    padding-inline: 0rem;
     max-width: 70rem;
   }
   @variant lg {
-    max-width: 70rem;
+    /* padding-inline: 0rem; */
+    max-width: 76.5rem;
+  }
+  @variant xl {
+    padding-inline: 0rem;
+    max-width: 76.5rem;
   }
 }
 
@@ -292,6 +296,7 @@ p,
 span,
 a,
 li,
+img,
 button {
   animation: slide-x 5s ease-in-out infinite;
 }

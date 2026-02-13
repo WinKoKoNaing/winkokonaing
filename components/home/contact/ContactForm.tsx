@@ -50,7 +50,7 @@ export function ContactForm() {
   });
 
   return (
-    <Card className="w-full sm:max-w-md">
+    <Card className="w-full">
       {/* <CardHeader>
         <CardTitle>Bug Report</CardTitle>
         <CardDescription>

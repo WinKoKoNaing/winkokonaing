@@ -5,6 +5,7 @@ import { Button } from "../ui/button";
 import { contact } from "./utils/constant";
 import HeroAnimation from "./HeroAnimation";
 import ScrollTo from "../common/navbar/scrollTo";
+import AnimatedGradientText from "../common/AnimatedGradientText";
 
 export default function HeroSection() {
   return (
@@ -13,10 +14,10 @@ export default function HeroSection() {
       className="min-h-[calc(100dvh-var(--nav-h)) scroll-mt-100 container grid md:grid-cols-2 place-items-center gap-20"
     >
       <div>
-        <h1 className="text-h1 bg-linear-to-r from-[#d3e97a] via-[#a3c75a] to-[#f0f8b0] bg-clip-text text-transparent animate-gradient-x">
-          hi, i am
+        <h1 className="text-h1">
+          <AnimatedGradientText>hi, i am</AnimatedGradientText>
           <br />
-          Win Ko Ko Naing
+          <AnimatedGradientText>Win Ko Ko Naing</AnimatedGradientText>
         </h1>
         <p className="text-body-medium mt-2">
           A software engineer passionate about building scalable, user-friendly
@@ -24,13 +25,15 @@ export default function HeroSection() {
         </p>
         <p className="text-body-medium">
           I focus on{" "}
-          <span className="text-[#d3e97a] animate-pulse-text">
+          <span className="text-primary animate-pulse-text font-bold">
             accessibility
           </span>
           ,{" "}
-          <span className="text-[#d3e97a] animate-pulse-text">performance</span>
+          <span className="text-primary animate-pulse-text font-bold">
+            performance
+          </span>
           , and{" "}
-          <span className="text-[#d3e97a] animate-pulse-text">
+          <span className="text-primary animate-pulse-text font-bold">
             maintainable code
           </span>
           .
@@ -57,7 +60,7 @@ export default function HeroSection() {
           </Button>
         </div>
       </div>
-      <div className="md:min-h-125">
+      <div className="md:min-h-125 flex items-center justify-center">
         <Suspense fallback={<div>Loading...</div>}>
           <HeroAnimation />
         </Suspense>
